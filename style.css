@@ -1,0 +1,167 @@
+/* Reset & Base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+    padding: 0 20px;
+  }
+  
+  a {
+    color: #0077b6;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  a:hover {
+    color: #023e8a;
+  }
+  
+  /* Header */
+  header {
+    text-align: center;
+    padding: 40px 0;
+    background: #0077b6;
+    color: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  header h1 {
+    font-size: 2.8rem;
+  }
+  
+  header p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+  }
+  
+  /* Navigation */
+  nav {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    background: #023e8a;
+    padding: 15px 0;
+    margin-bottom: 30px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  
+  nav a {
+    color: white;
+    font-weight: 500;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Section Styling */
+  section {
+    max-width: 900px;
+    margin: auto;
+    margin-bottom: 60px;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+  }
+  
+  section h2 {
+    color: #023e8a;
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+    border-bottom: 2px solid #90e0ef;
+    display: inline-block;
+    padding-bottom: 5px;
+  }
+  
+  /* Skills */
+  ul {
+    list-style: square inside;
+    margin-top: 10px;
+  }
+  
+  ul li {
+    padding: 5px 0;
+    font-size: 1rem;
+  }
+  
+  /* Projects */
+  .project {
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background: #f8f9fa;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  }
+  
+  .project h3 {
+    margin-bottom: 10px;
+    color: #0077b6;
+  }
+  
+  .project a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 15px;
+    background: #0077b6;
+    color: white;
+    border-radius: 6px;
+    font-weight: bold;
+  }
+  
+  .project a:hover {
+    background: #023e8a;
+  }
+  
+  /* Contact Section */
+  #contact p {
+    margin-bottom: 10px;
+    font-size: 1rem;
+  }
+  
+  #contact a {
+    font-weight: bold;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 20px 0;
+    background: #0077b6;
+    color: white;
+    margin-top: 40px;
+    font-size: 0.95rem;
+  }
+  
+  /* Responsive Design */
+  @media screen and (max-width: 768px) {
+    nav {
+      flex-direction: column;
+      gap: 15px;
+    }
+  
+    body {
+      padding: 0 10px;
+    }
+  
+    section {
+      padding: 20px;
+    }
+  }
+  nav {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+  
